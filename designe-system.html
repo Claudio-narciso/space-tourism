@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+        <title>Space Tourism</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="uppercase">Design System</h1>
+            <section id="color" class="section flow">
+                <h2 class="numbered-title"><span>01</span> colors</h2>
+
+                <!-- Color Blocks -->
+                <div class="flex">
+                    
+                    <div class="flow" style="flex-grow: 1;">
+                        <div class="box text-white fs-ms ff-serif">
+                            #0B0D17
+                        </div>
+                        <p><span class="text-light-blue">RGB</span> 11, 13, 23</p>
+                        <p><span class="text-light-blue">HSL</span> 238º, 35%, 7%</p>
+                    </div>
+
+                    <div class="flow" style="flex-grow: 1;">
+                        <div class="box bg-light-blue text-dark fs-ms ff-serif">
+                            #D0D6F9
+                        </div>
+                        <p><span class="text-light-blue">RGB</span> 208, 214, 249</p>
+                        <p><span class="text-light-blue">HSL</span> 231°, 77%, 90%</p>
+                    </div>
+
+                    <div class="flow" style="flex-grow: 1;">
+                        <div class="box bg-white text-dark fs-ms ff-serif">
+                            #FFFFFF
+                        </div>
+                        <p><span class="text-light-blue">RGB</span> 255, 255, 255</p>
+                        <p><span class="text-light-blue">HSL</span> 0°, 0%, 100%</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Typography -->
+            <section class="section flow">
+                <h2 class="numbered-title"><span>02 </span>Typography</h2>
+                <div class="flex">
+                    <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
+                        <div> 
+                            <p class="text-light-blue">Heading 1 - Bellefair Regular - 150px</p>
+                            <p class="ff-serif uppercase fs-xb">Earth</p> 
+                        </div>
+                        <div> 
+                            <p class="text-light-blue">Heading 2 - Bellefair Regular - 100px</p>
+                            <p class="ff-serif uppercase fs-bg">Venus</p>
+                        </div>
+                        <div> 
+                            <p class="text-light-blue">Heading 3 - Bellefair Regular - 56px</p>
+                            <p class="ff-serif uppercase fs-mb">Jupiter & Saturn</p>
+                        </div>
+                        <div> 
+                            <p class="text-light-blue">Heading 4 - Bellefair Regular - 32px</p>
+                            <p class="ff-serif uppercase fs-md">Uranus, Neptune, & Pluto</p>
+                        </div> 
+                        <div> 
+                            <p class="text-light-blue">Heading 5 - Barlow Condensed Regular - 28px - 4.75 Character Space</p>
+                            <p class="ff-sans-cond letter-spacing-1 uppercase fs-ms text-light-blue">So, you want to travel to space</p>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
+                        <div> 
+                            <p class="text-light-blue">Subheading 1 - Bellefair Regular - 28px</p>
+                            <p class="ff-serif uppercase fs-ms">384,400 km</p>
+                        </div>
+                        <div> 
+                            <p class="text-light-blue">Subheading 2 - Barlow Condensed Regular - 14px - 2.35 Character Space</p>
+                            <p class="ff-sans-cond fs-xs">Avg. Distance</p>
+                        </div>
+                        <div> 
+                            <p class="text-light-blue">Nav Text - Barlow Condensed Regular - 16px - 2.7 Character Space</p>
+                            <p class="ff-sans-cond fs-sm">Europa</p>
+                        </div>
+                        <div> 
+                            <p class="text-light-blue">Body Text</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. </p>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="numbered-title"><span>03</span> Interactive-elements</h2>
+
+                <!-- navigarion -->
+                <div>
+                    <nav>
+                        <ul class="primary-navigation flex underline-indicators">
+                            <li class="active"><a class="uppercase  ff-sans-cond letter-spacing-2 text-white" href="#"><span>01</span>Active</a></li>
+                            <li><a class="uppercase letter-spacing-2 ff-sans-cond  text-white" href="#"><span>02</span>Hovered</a></li>
+                            <li><a class="uppercase letter-spacing-2 ff-sans-cond  text-white" href="#"><span>03</span>IDLE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="flex" style="justify-content: baseline;">
+                    <div style="margin-top: 5rem;">
+                        <!-- explore button -->
+                        <a class="circle-button uppercase bg-white ff-serif text-dark fs-md" href="#">Explore</a>
+                    </div>
+
+                    <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem;">
+                        <!-- Tabs List -->
+                        <div class="tab-list underline-indicators flex">
+                            <button aria-selected="true" class="uppercase ff-sans-cond cond letter-spacing-2 text-light-blue fs-sm">Moon</button>
+                            <button aria-selected="false" class="uppercase ff-sans-cond cond letter-spacing-2 text-light-blue fs-sm">Mars</button>
+                            <button aria-selected="false" class="uppercase ff-sans-cond cond letter-spacing-2 text-light-blue fs-sm">Europe</button>
+                        </div>
+
+                        <!-- Dots -->
+                        <div class="dots-indicators flex">
+                            <button aria-selected="true" class=""> <span class="sr-only">Single Slide</span></button>
+                            <button aria-selected="false" class=""> <span class="sr-only">Single Slide</span></button>
+                            <button aria-selected="false" class=""> <span class="sr-only">Single Slide</span></button>
+                        </div>
+
+                        <!-- Numbers -->
+                        <div class="number-indicators grid">
+                            <button aria-selected="true" class="bg-dark text-white">1</button>
+                            <button aria-selected="false" class="bg-dark text-white">2</button>
+                            <button aria-selected="false" class="bg-dark text-white">3</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
